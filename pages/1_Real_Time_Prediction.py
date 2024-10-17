@@ -1,6 +1,6 @@
 from navigation import make_sidebar
 import streamlit as st
-from pages.Home import face_rec
+from Home import face_rec
 from streamlit_webrtc import webrtc_streamer
 import av
 import time
