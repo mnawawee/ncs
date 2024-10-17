@@ -1,6 +1,6 @@
 import streamlit as st
 from navigation import make_sidebar
-from .Home import face_rec
+from pages.Home import face_rec
 import cv2
 import numpy as np
 from streamlit_webrtc import webrtc_streamer
