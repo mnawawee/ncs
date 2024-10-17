@@ -1,6 +1,6 @@
 from navigation import make_sidebar
 import streamlit as st
-from Home import face_rec
+from pages.Home import face_rec
 import pandas as pd
 make_sidebar()
 # Configure the Streamlit app
